@@ -1,6 +1,6 @@
 // https://developer.mozilla.org/ja/docs/Web/Progressive_web_apps/Offline_Service_workers
 
-var cacheName = "Siv3DTest-v1";
+var cacheName = "OiDonouWeb";
 
 var appShellFiles = [
   "./OiDonouWeb.html",
