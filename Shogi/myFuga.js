@@ -5224,7 +5224,7 @@ function copyTempDouble(ptr) {
   
               // The default value is 'ws://' the replace is needed because the compiler replaces '//' comments with '#'
               // comments without checking context, so we'd end up with ws:#, the replace swaps the '#' for '//' again.
-              var url = 'ws:#'.replace('#', '//');
+              var url = 'wss:#'.replace('#', '//');
   
               if (runtimeConfig) {
                 if ('string' === typeof Module['websocket']['url']) {
